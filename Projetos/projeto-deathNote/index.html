@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="shortcut icon" href="./src/img/icone.png" type="image/x-icon">
+	<!--CSS Styles-->
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/style.css">
+	<!--CSS Fonts-->
+	<link rel="stylesheet" href="./src/css/fonts.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet" />
+	<title>Death Note</title>
+</head>
+<body>
+	<div class="fundo-video">
+		<video class="video" autoplay loop muted>
+			<source src="./src/video/OPG1.mp4" type="video/mp4" />
+		</video>
+	</div>
+	<header class="cabecalho ">
+		<a>
+			<img class="logo" src="./src/img/icone.png" alt="logo deathNote" />
+		</a>
+		<nav>
+			<ul class="menu">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#detalhe">DETALHES</a></li>
+				<li class="assista"><a href="#">ASSISTA</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="container">
+		<div class="informacoes">
+			<img class="imagem-titulo" src="./src/img/bunner1.png" alt="imagem do titulo detah note" />
+			<p class="descricao">Um estudante de repente encontra um caderno que caiu do céu. Trata-se do Death Note,
+				que permite ao seu portador matar qualquer pessoa a partir da mera anotação do nome do alvo em uma de
+				suas páginas. Sob a influência de Ruyk, dono do caderno, ele passa a usá-lo para eliminar criminosos e
+				pessoas que escaparam da justiça. A súbita onda de assassinatos faz com que ele seja endeusado por
+				muitos, que o apelidam de Kira, mas também atrai a atenção de um enigmático e brilhante detetive,
+				chamado <span class="font">L</span> .</p>
+			<button class="botao-trailer">Veja o trailer</button>
+		</div>
+		<img class="deathNote" src="./src/img/img.png" />
+		<div class="modal ">
+			<div class="conteudo-modal">
+				<span class="fechar-modal">X</span>
+				<iframe id="video" width="560" height="315" src="./src/video/OPG1.mp4" title="Trailer Oficial"
+					frameborder="1"
+					allow="accelerometer; autoplay; clipboard-write;encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+		</div>
+	</main>
+	<section class="detalhes" id="detalhe">
+		<h1 class="titulo-detalhe">Detalhes</h1>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero quod minus labore ipsam expedita nisi omnis mollitia vel et illum placeat quia nulla soluta, repellat eum molestias qui quisquam hic.</p>
+		<h3 class="">Mangá</h3>
+		<img src="./src/img/manga.jpg" alt="imagem do manga">
+		<p>O mangá foi criado por Tsugumi Ohba com ilustrações de Takeshi Obata. Foi publicado inicialmente na Weekly Shonen Jump entre dezembro de 2003 e maio de 2006.
+			Outra história paralela ao Death Note é o volume Death Note: Another Note Los Angeles BB Renzoku Satsujin Jiken, que retrata o caso em que Naomi Misora e L trabalharam juntos. Possui 178 páginas e foi lançado em agosto de 2006 no Japão.
+			Em Portugal o mangá foi publicado de fevereiro de 2012 até março de 2015, pela Editora Devir.</p>
+			<img class="imagens-detalhes" src="./src/img/CAPA-2.jpg" alt="imagem Death Note: Another Note">
+			<p> 14 anos após o fim do mangá original, em 4 de fevereiro de 2020, é lançada uma história one-shot de 87 páginas chamada Death Note: Special One-Shot. O capítulo retrata Ryuk de volta ao mundo humano em busca de maçãs. A aventura conta com um personagem inédito chamado Minoru Tanaka e mostra o mundo pós-kira. Além disso, a trama conta com alguns temas atuais, como uma alusão ao presidente dos Estados Unidos, o empresário Donald Trump. O capítulo completo pode ser encontrado de graça online publicado no website Viz.</p>
+			<img src="./src/img/oneShot.jpg" alt="imagem do Special One-Shot">	
+			</p>
+			<br>
+			<h3>Anime</h3>
+			<img class="imagens-detalhes" src="./src/img/anime.jpg" alt="imagem do anime">
+			<p>A versão em anime foi produzida pelo estúdio Madhouse e dirigida por Tetsurō Araki, tendo sido exibida entre 3 de outubro de 2006 e 26 de junho de 2007, contando com 37 episódios. A dublagem do anime no Brasil foi feita no Rio de Janeiro pelos estúdios da Cinevídeo.
+			Em Portugal foi transmitido na SIC Radical e pelo Animax, legendado pelos estúdios PSB Audiovisuais.</p>
+		<div class="personagens">
+			<h2 class="titulo-detalhe">Personagens Principais</h2>
+			<p>Escolha um personagem e duscubra sobre ele</p>
+			<div class="">
+				<button id="btn-light" class="botao-personagem ">Light Yagami</button>
+				<button id="btn-l" class="botao-personagem">L Lawliet</button>
+				<button id="btn-ryuk" class="botao-personagem">Ryuk</button>
+				<button id="btn-misa" class="botao-personagem">Misa Amane</button>
+				<button id="btn-near" class="botao-personagem">Near</button>
+				<button id="btn-mello" class="botao-personagem">Mello</button>
+			</div>
+			<div class="pesonagens-detalhes">
+				<div id="mostrar-light" class="card hide">
+					<div class="card-header">
+						<img src="./src/img/Light.jpg" alt="Imagem">
+					</div>
+					<div class="card-body">
+						<h2 class="card-titulo">Light Yagami/ Kira</h2>
+						<p>É um dos melhores alunos do Japão e o principal protagonista da série. Uma vez que
+							encontra o Death Note, se dispõe a acabar com todos os criminosos do mundo e criar um mundo
+							onde ele é o deus. Ao usar o Death Note, o número de mortes inexplicáveis chama a atenção de
+							todos os meios de comunicação, tornando-se o centro de atenção do Japão e do mundo. Mais
+							tarde, ele terá que escapar das deduções de L para poder alcançar seus objetivos. Na versão
+							japonesa, seu seiyū é Mamoru Miyano, enquanto que foi dublado na versão brasileira por José
+							Leonardo.</p>
+					</div>
+				</div>
+				<div id="mostrar-l" class="card hide">
+					<div class="card-header">
+						<img src="./src/img/L.Lawliet.jpg" alt="Imagem">
+					</div>
+					<div class="card-body">
+						<h2 class="card-titulo"><span class="font">L</span></h2>
+						<p>É um famoso detetive particular e principal antagonista anti-heróico do mangá/série Death Note, do qual ninguém conhecia sua verdadeira identidade, com exceção do seu assistente, Watari. É conhecido mundialmente por decifrar casos complicados, pois é uma pessoa extremamente inteligente. Na versão japonesa, seu seiyū é Kappei Yamaguchi, enquanto que foi dublado na versão brasileira por Sérgio Cantú.</p>
+					</div>
+				</div>
+
+				<div id="mostrar-ryuk" class="card hide">
+					<div class="card-header">
+						<img src="./src/img/Ryuk.jpg" alt="Imagem">
+					</div>
+					<div class="card-body">
+						<h2 class="card-titulo">Ryuk</h2>
+						<p>É o shinigami (deus da morte no folclore japonês) entediado que indiretamente deu o Death Note a Light Yagami após jogá-lo no mundo humano como uma tentativa de ter entretenimento e atua como o deuteragonista da série. Após seu primeiro encontro com Light, ele age apenas como um acompanhante de Light e um mero espectador de tudo o que acontece ao longo da série. Ele também demonstra ser amoral, pois em um ponto ele declara a Light não estar do seu lado nem do L, estando lá apenas observando os passos de Light e neutro em relação as ações de Light durante a série. Na versão japonesa original do anime, seu seiyū é Shidō Nakamura, enquanto que na dublagem brasileira, ele foi dublado por Jorge Vasconcelos.</p>
+					</div>
+				</div>
+
+				<div id="mostrar-misa" class="card hide">
+					<div class="card-header">
+						<img src="./src/img/Misa.jpg" alt="Imagem">
+					</div>
+					<div class="card-body">
+						<h2 class="card-titulo">Misa Amane</h2>
+						<p>É uma ídolo japonesa famosa que também é portadora de um Death Note. Misa ficou obcecada por Kira depois que ele matou o assassino de seus pais, pelo modo que se dedica a ajudar Light, fazendo se passar pelo "segundo Kira". Misa se apaixona profundamente por Light, sendo facilmente manipulada por ele, mas ele só a usa para alcançar seus objetivos. Na versão japonesa, seu seiyū é Aya Hirano, enquanto que foi dublado na versão brasileira por Ana Lúcia Menezes.</p>
+					</div>
+				</div>
+				
+				<div id="mostrar-near" class="card hide">
+					<div class="card-header">
+						<img src="./src/img/Near.jpg" alt="Imagem">
+					</div>
+					<div class="card-body">
+						<h2 class="card-titulo">Near</h2>
+						<p>Near cujo nome verdadeiro é Nate River é uma das crianças superdotadas do orfanato Wammy's House e o primeiro na linha de sucessão de L. Ele serve como o antagonista principal da série após a morte de L. Ao ser informado da morte de L, ele se ofereceu para pegar Kira junto de Mello, mas Mello se recusou. Mais tarde, com a ajuda do governo, cria a SPK, uma organização fundada com o único objetivo de capturar Kira, conseguindo encontrar Light. Segundo Near, nem ele e nem Mello estavam no nível de L, mas juntos eram o mesmo L, ou até mesmo, o superavam. Na versão japonesa, seu seiyū é Noriko Hidaka, enquanto que foi dublado na versão brasileira por Charles Emmanuel.</p>
+					</div>
+				</div>
+
+				<div id="mostrar-mello" class="card hide">
+					<div class="card-header">
+						<img src="./src/img/Mello.jpg" alt="Imagem">
+					</div>
+					<div class="card-body">
+						<h2 class="card-titulo">Mello</h2>
+						<p>Mello cujo nome verdadeiro é Mihael Keehl é uma das crianças superdotadas do orfanato Wammy's House como Near, e o segundo na linha de sucessão de L. Assim que L morre, Mello faz um trato com a máfia para conseguir pegar Kira antes de Near, mas é assassinado por Kiyomi Takada, que escreveu seu nome no Death Note, por ordem de Light. Na versão japonesa, seu seiyū é Sasaki Nozomu, enquanto que foi dublado na versão brasileira por Marcos Souza.</p>
+					</div>
+				</div>
+
+			</div>
+			<!-- ******************************* -->
+		</div>
+		
+		<div class="hide-assista ">
+			<div class="conteudo-hide">
+				<span class="fechar-hide">X</span>
+				<div class="onde-assistir">
+					<h2>Aonde Assistir?</h2>
+					<p>Você pode assistir Death note nessas três plataformas digitaisn HBO MAX,Netflix e Crunchyroll.</p>
+					<ul class="opçoes-assistir">
+						<button class="botao-hbo"><a href="https://www.hbomax.com/br/pt/series/urn:hbo:series:GXuFMfQuwD5uSkwEAAAth" target="_blank">HBO MAX</a> </button>
+						<button class="botao-crunch"><a href="https://www.crunchyroll.com/pt-br/series/G6QWD3EE6/death-note" target="_blank">Crunchyroll</a></button>
+						<button class="botao-netflix" target="_blank"><a href="https://www.netflix.com/br/title/70204970" target="_blank">Netflix</a></button>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<h5>Copyright © 2023 Meu Portifólio. Desenvolvido por:
+				<a href="" target="_blank">Mateus Cruz </a>
+			  </h5>
+		</footer>
+	</section>
+	
+
+	<script src="./src/js/index.js"></script>
+	<script src="./src/js/hide.js"></script>
+	<script src="./src/js/assista.js"></script>
+</body>
+</html>

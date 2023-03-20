@@ -1,0 +1,77 @@
+html,body,.capa{
+    height: 100%;
+}
+
+body{
+   
+    background: url('../imagens/capa.png'),
+                url('../imagens/ruido.png'),
+                linear-gradient(50deg,#ff4169,#7c26f8);
+
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+} 
+
+.container{
+    text-align: center; 
+    display: block;
+}
+
+.img-logo{
+    height: 55px;
+    width: 182px;
+    padding: 20px;
+    background-size: contain;
+    text-align: center;
+} 
+
+/*-- Botões de login -- */
+
+.opcoes-login{
+    margin-top: 10px;
+}
+
+.btn-geral{
+   /* width: 500px;
+    height: 45px;*/
+    border: 15px;
+    border-radius: 500px;
+    padding: 10px 55px;
+    margin: 0px 15px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s ;
+}
+.btn-face{
+    background: rgba(0, 0, 255, 0.734);
+    color:rgb(255, 253, 253);
+    
+}
+
+.btn-face:hover{
+    background: rgb(0, 89, 255);
+    color: rgb(0, 0, 0);
+}
+
+.btn-appl{
+    background: rgba(0, 0, 0, 0.734);
+    color:rgb(255, 253, 253);
+   
+}
+.btn-appl:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.btn-google{
+    background: rgba(255, 255, 255, 0.734);
+    color:rgb(0, 0, 0);
+}
+
+.btn-google:hover{
+    background: rgb(201, 201, 201);
+    color: rgb(255, 255, 255);
+}
+
+
+

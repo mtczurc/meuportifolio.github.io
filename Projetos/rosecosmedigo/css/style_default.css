@@ -1,0 +1,163 @@
+/***
+default theme
+***/
+
+/***
+Reset and overrides  
+***/
+body { 
+  background-color:#3D3D3D  !important ;
+}
+
+/***
+Page header
+***/
+
+.header .btn-navbar {  
+  background-color: #1f1f1f !important;
+} 
+
+.header .nav .dropdown-toggle:hover, 
+.header .nav .dropdown.open .dropdown-toggle {
+  background-color: #444 !important;
+}
+
+.header .nav li.dropdown .dropdown-toggle i {
+  color: #808080 !important;
+}
+
+/***
+Page sidebar
+***/
+.page-sidebar > ul > li > a {
+  border-top: 1px solid #595959 !important;
+  color: #fff !important;
+}
+
+.page-sidebar > ul > li:last-child > a {
+   border-bottom: 1px solid transparent !important;
+}
+
+.page-sidebar > ul > li:first-child > a {
+  border-top-color: transparent !important;
+}
+
+.page-sidebar > ul > li a i {
+   color: #fff;
+}
+
+.page-sidebar > ul > li.has-sub.open >a, 
+.page-sidebar > ul > li >a:hover, 
+.page-sidebar > ul > li:hover>a {  
+  /*background: #313131;*/
+  background: #36aae7;
+  background: -webkit-linear-gradient(#36aae7, #1fa0e4);
+  background: -moz-linear-gradient(#36aae7, #1fa0e4);
+  background: -o-linear-gradient(#36aae7, #1fa0e4);
+  background: -ms-linear-gradient(#36aae7, #1fa0e4);
+  background: linear-gradient(#36aae7, #1fa0e4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  color: #fff
+}
+
+.page-sidebar > ul > li.active > a{
+   padding: 10px 20px;
+  border-left: 1px solid #1682ba;
+  border-right: 1px solid #1682ba;
+  border-top: 1px solid #1682ba !important;
+  cursor: pointer;
+  z-index: 2;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+  background: #36aae7;
+  background: -webkit-linear-gradient(#36aae7, #1fa0e4);
+  background: -moz-linear-gradient(#36aae7, #1fa0e4);
+  background: -o-linear-gradient(#36aae7, #1fa0e4);
+  background: -ms-linear-gradient(#36aae7, #1fa0e4);
+  background: linear-gradient(#36aae7, #1fa0e4);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  /*
+  background: #0297C3 !important;  
+  border-top-color: transparent !important;
+  color:#fff;*/
+}  
+
+.page-sidebar > ul > li.active > a i {
+  color:#fff;
+}
+
+.page-sidebar > ul > li > a.open {
+  background: #313131;
+}
+
+.page-sidebar ul > li > a .arrow:before,
+.page-sidebar > ul > li > a .arrow.open:before {  
+   color: #fff !important;
+}
+
+.page-sidebar ul > li.active > a .arrow:before,
+.page-sidebar > ul > li.active > a .arrow.open:before {  
+   color: #fff !important;
+}
+
+.page-sidebar > ul > li > ul.sub > li > a {
+  color: #fff;
+  margin-left:0px;  
+  padding-left: 5px; 
+}
+
+.page-sidebar > ul > li > ul.sub > li:first-child > a {
+  border-top: 0px !important;
+}
+
+.page-sidebar > ul > li > ul.sub > li.active > a, 
+.page-sidebar > ul > li > ul.sub > li > a:hover {
+  color: #fff !important;
+  background: #4b4b4b !important;  
+}
+
+.page-sidebar > ul > li > ul.sub > li > a:hover {
+  background: #4b4b4b !important;
+}
+
+.page-sidebar .sidebar-search input{
+  background-color: #3d3d3d  !important;  
+  color: #bababa !important;
+}
+
+.page-sidebar .sidebar-search .input-box {
+  border-bottom-color: #959595  !important;
+}
+
+.page-sidebar .sidebar-search .submit {
+  background-image: url(../img/search-icon.png);
+}
+
+/***
+Landscape phone to portrait tablet
+***/
+@media (max-width:979px) { 
+  /***
+  page sidebar
+  ***/
+  .page-sidebar {
+    background-color: #232427 !important;
+  }
+
+  .page-sidebar > ul > li > a {
+    border-top: 1px solid #2c2d30 !important;
+  }
+
+  .page-sidebar > ul > li:last-child > a {
+    border-bottom: 0 !important;
+  }
+
+  .page-sidebar .sidebar-search input{
+    background-color: #232427  !important;  
+  }
+}
+
+.container-fluid{padding-bottom: 20px}

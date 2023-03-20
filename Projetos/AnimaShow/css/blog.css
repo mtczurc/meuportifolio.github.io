@@ -1,0 +1,82 @@
+body{
+ background: linear-gradient(50deg,#00095f,#03bcd7);
+ 
+  
+}
+
+.bunner-img{
+  width: 100%;
+  height: 500px;
+      
+}
+
+.collapse .navbar-collapse{
+  color: white;
+}
+.barra-navegacao{
+  background-color:white;
+  
+}
+.barra-navegacao .navbar-nav>li>a{
+  color: black;
+}
+.barra-navegacao .navbar-nav>li>a:hover{
+  color: #03bcd7;
+  background: none;
+}
+#sobre1{
+  background: white;
+}
+#sobre h2,h3 , p{
+  color: black;
+}
+
+/* ============= CSS BLOG ================ */
+.container{
+  width: 80%;
+}
+
+.container-area{
+  background: white;
+  padding: 60px 30px 30px 10px;
+  
+}
+.bunner-blog{
+  width: 100%;
+  padding: 10px 0px ;
+}
+
+/* ============= Imagens Fonteudo ================ */
+.img-materia{
+  width: 450px;
+  height: 250px;
+  padding: 10px 20px 10px 20px;
+}
+
+
+.card-text{
+  width: 450px;
+  height: 250px;
+  padding: 10px 20px 10px 20px;
+}
+
+
+.baseboard{
+  background-color: white;
+
+}
+
+.new-conteudo{
+  border: 1px solid red;
+}
+
+.responsaveis{
+  border: 1px solid red;
+}
+
+
+/* ============= Rodapé ================ */
+.rodape{
+background-color: white;
+
+}

@@ -1,0 +1,103 @@
+.cartao-knb {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+
+}
+
+.cartao-knb .cartao-topo {
+    padding: 30px 90px 0;
+}
+
+.cartao-knb .nome {
+    margin-bottom: 5px;
+
+}
+
+.cartao-knb .kanji {
+    font-size: 12px;
+    background-color: #FFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.cartao-knb .detalhes {
+    color: #FFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-knb .cartao-imagem {
+    padding: 0px 20px 0px;
+    width: 150px;
+    height: 285px;
+
+}
+
+.cartao-knb img {
+    max-height: 100%;
+
+}
+
+.cartao-knb .cartao-info {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 60px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-knb .cartao-info h3 {
+    font-size: 27px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6b727A;
+}
+
+.cartao-knb .cartao-info .status,
+.cartao-knb .cartao-info .habilidades {
+    padding: 0 10px;
+    width: 180px;
+}
+
+.cartao-knb .cartao-info .habilidades ul li,
+.cartao-knb .cartao-info .status ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-knb.aberto {
+    display: block;
+}
+
+.midorima {
+    background-color: #19c702;
+
+}
+
+.akashi {
+    background-color: #ff2020;
+}
+
+.aomine {
+    background-color: #00238b;
+}
+.kise {
+    background-color: #fdf800;
+}
+.murasakibara {
+    background-color: #e400c6;
+}
+.kuroko {
+    background-color: #00c6fd;
+}
+.kagami {
+    background-color: #dc1d00;
+}

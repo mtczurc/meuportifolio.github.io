@@ -1,0 +1,247 @@
+body {
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.cartao {
+    background-color: #070d12;
+    width: 470px;
+    border: 2px dotted #02d084;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+/* ===========Sobre===========*/
+
+.cartao .minhas-info {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cartao .minhas-info img {
+    width: 120px;
+    height: 120px;
+    border-radius: 55px;
+    border: 3px solid #007d86;
+}
+
+.cartao .minhas-info .info-extra {
+    padding: 10px;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.cartao .minhas-info .nome {
+    font-size: 36px;
+
+}
+
+.cartao .minhas-info .cargo {
+    font-size: 25px;
+    color: #02c2d0;
+}
+
+.cartao .conteudo {
+    padding: 0px 0px 10px;
+    margin-top: 15px;
+
+
+}
+
+/* ===========Opçoes===========*/
+.cartao .abas {
+    display: flex;
+    
+
+}
+
+.cartao .abas .aba {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: bacground-color 0.2s ease-in-out;
+
+}
+
+.cartao .abas img {
+    width: 30px;
+
+}
+
+.cartao .abas .aba.selecionado {
+    background-color: #262626;
+}
+
+
+.cartao .informacoes-abas {
+    background-color: #262626;
+
+}
+
+.cartao .abas .aba:hover {
+    background-color: #6a6a6a;
+
+}
+
+/* ===========Informaçoes gerais===========*/
+.informacoes-abas .informacao {
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+}
+
+.informacoes-abas .informacao.selecionado {
+    display: block;
+}
+
+.informacoes-abas .sub-titulo {
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    /* color: #e126d9;*/
+}
+
+.informacoes-abas .descricao {
+    font-size: 20px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.informacoes-abas .descricao span {
+    color: #008c59;
+}
+
+/* ===========Redes sociais===========*/
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+
+    max-height: 180px;
+    overflow-y: auto;
+
+}
+
+.redes-sociais li a {
+    color: rgb(255, 255, 255);
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.redes-sociais li a:hover {
+    opacity: 0.8;
+}
+
+.redes-sociais .curriculo {
+    background-color: #06c185;
+
+}
+
+.redes-sociais .curriculo:hover {
+    background-color: #ffffff;
+    color: black;
+    /* border: 2px solid black;*/
+}
+
+.redes-sociais .instagram {
+    background-color: #CF02FC;
+}
+
+.redes-sociais .instagram:hover {
+    background-color: #ff5fcc;
+    color: black;
+}
+
+.redes-sociais .facebook {
+    background-color: #022996;
+}
+
+.redes-sociais .facebook:hover {
+    background-color: #0072fe;
+    color: black;
+}
+
+.redes-sociais .linkedin {
+    background-color: #021DFC;
+}
+
+.redes-sociais .linkedin:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.redes-sociais .github {
+    background-color: #000000;
+    color: white;
+}
+
+.redes-sociais .github:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+/* ===========Projetos===========*/
+.meus-projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.meus-projetos li a {
+    color: rgb(255, 255, 255);
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.meus-projetos .projetos {
+    background-color: #000000;
+}
+
+.meus-projetos .projetos:hover {
+    background-color: #747474;
+}
+
+/* ===========Footer===========*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+.footer a {
+    color: white;
+}

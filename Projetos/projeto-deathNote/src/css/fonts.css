@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'df';
+    src: url('../font/death_font_ver1_0.ttf') format('opentype'),url();
+    
+}
+@font-face {
+    font-family: 'fontDF';
+    src: url('../font/RyuksHandwriting\ copy.ttf') format('opentype'),url();
+}
+@font-face {
+    font-family: 'fontDF1';
+    src: url('../font/CloisterBlack\ copy.ttf') format('opentype'),url();
+}
+
+@font-face{
+    font-family: 'fontDF2';
+    src: url('../font/RyukExtra\ copy.ttf') format('opentype'),url();
+}
